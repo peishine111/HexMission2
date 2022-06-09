@@ -55,6 +55,13 @@ table {
 
 /* index.html的css */
 
+.top {
+  position: fixed;
+  right: 48px;
+  bottom: 23px;
+  z-index: 100;
+}
+
 .container {
   max-width: 1366px;
   margin: 0 auto;
@@ -929,6 +936,7 @@ ul.feature-item li p{
   font-size: 32px;
   color: #56C4C5;
   text-align: center;
+  display: inline-block;
 }
 
 
@@ -951,6 +959,7 @@ ul.feature-item li p{
 
 .plan_pay li p.exp {
   font-size: 32px;
+  display: inline-block;
 }
 
 
@@ -1027,7 +1036,7 @@ ul.feature-item li p{
   font-weight: 900;
 }
 
-.qa-title p:hover {
+.active {
   color: #56C4C5;
 }
 
@@ -1037,7 +1046,12 @@ ul.feature-item li p{
   cursor: pointer;
 }
 
+img.plus {
+  display: none ;
+}
+
 .answer {
+  display: none;
   color: #747474;
 }
 
