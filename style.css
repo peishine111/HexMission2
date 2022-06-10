@@ -589,10 +589,7 @@ ul.feature-item li p{
 }
 
 .comment_star .star {
-  position: absolute;
   z-index: 100;
-  left: 198.89px;
-  bottom: 27.15px;
   width: 121.02px;
   height: 16.85px;
 }
